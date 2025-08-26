@@ -8,7 +8,7 @@ export default function index()  {
   return (
     <ScreenWrapper>
       <Text>index</Text>
-      <Button title= "welcome" onPress={()=>router.push('welcome')}></Button>
+      <Button title= "go to Home" onPress={()=>router.push('HomePage')}></Button>
     </ScreenWrapper>
   )
 }
